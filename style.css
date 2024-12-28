@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #00EEFF;
+}
+
+body {
+    background-color: #1F242D;
+}
+
+.bir-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.text {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    
+    color: white;
+}
+#name{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    
+    color: white;
+    text-align: justify;
+
+}
+h2 {
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    
+    color: white;
+    text-align: center;
+}
+
+span {
+    color: #00EEFF;
+}
+.bir-left p{
+        width: 530px;
+            color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: left;
+}
+p {
+    width: 530px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    background-color: #00EEFF;
+    width: 176.59px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #323946;
+    margin-top: 20px;
+}
+
+
+/* section2 */
+
+.box button {
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    background-color: #00EEFF;
+    width: 176.59px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #323946;
+    margin-top: 20px;
+}
+
+.box {
+    width: 380.27px;
+    height: 369px;
+    border-radius: 20px;
+    background-color: #323946;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    width: 280px;
+    text-align: center;
+}
+
+#ikki h2 {
+    text-align: center;
+}
+
+.box h3 {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+    color: white;
+}
+
+/* .rasm{
+    padding-left: 150px;
+    padding-top: 20px;
+} */
+ .ikki-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+ }
+ #uch img{
+    border-radius: 20px;
+ }
+ #uch h2{
+    text-align: center;
+    padding-top: 60px;
+ }
+ .parent1{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    padding-bottom: 80px;
+ }
+ #uch{
+    background-color: #323946;
+    
+ }
+ .header-right img{
+    display: none;
+ }
+ input{
+    width: 343px;
+        height: 55px;
+    background-color: #323946;
+        padding: 15px;
+        border: none;
+        border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+ }
+ .inp{
+    width: 710px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    
+ }
+ .btn2{
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    background-color: #00EEFF;
+    width: 176.59px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #323946;
+    margin-top: 20px;
+    margin-left: 250px;
+ }
+ textarea{
+   width: 698px;
+    height: 280px;
+    background-color: #323946;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+
+ }
+ footer{
+    background-color: #323946;
+    height: 80px;
+
+ }
+.fotparent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.fotparent p{
+    width: 350px;
+}
+
+ @media screen and (min-width:500px) and (max-width: 1000px){
+    .container{
+        max-width: 710px;
+    }
+    .box{
+        width: 352.17px;
+        height: 316.95px;
+    }
+    .and{
+        width: 710px;
+        margin-top: 7px;
+    }
+    .and p{
+        width: 680px;
+    }
+    #uch img{
+        width: 330px;
+    }
+         .header-right img {
+             display: block;
+         }
+         nav{
+            display: none;
+         }
+         .bir-parent{
+            flex-direction: column
+            ;
+         }
+         .inp {
+            width: 550px;
+         }
+        .inp input {
+            width: 250px;
+        }
+        textarea{
+            width: 513px;
+            height: 200px;
+        }
+        .btn2{
+            margin-left: 170px;
+        }
+        h2 ,#uch h2{
+            font-size: 35px;
+        }
+ }
+ @media screen  and (max-width: 320px){
+    .container{
+        max-width: 300px;
+    }
+    h2 ,#uch h2{
+        font-size: 35px;
+    }
+
+    #uch img{
+        width: 300px;
+    }
+         .header-right img {
+             display: block;
+         }
+         nav{
+            display: none;
+         }
+         .bir-parent{
+            flex-direction: column
+            ;
+         }
+         .inp {
+            width: 300px;
+         }
+        .inp input {
+            width: 280px;
+        }
+        textarea{
+            width: 280px;
+            height: 180px;
+        }
+        .btn2{
+            margin-left: 80px;
+        }
+        .bir-right img{
+            width: 270px;
+        }
+        .box{
+            margin-top: 10px;
+        }
+        .bir-left p{
+            width: 300px;
+        }
+        .text {
+            font-size: 20px;
+        }
+        #name{
+            font-size: 30px;
+        }
+        .bir-left p{
+            width: 100%;
+        }
+        button , .btn button {
+            width: 130px;
+            font-size: 13px;
+        }
+        .btn2 {
+            width: 130px;
+            font-size: 13px;
+            margin-left: 97px;
+        }
+    
+ }
